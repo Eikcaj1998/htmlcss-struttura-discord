@@ -1,0 +1,27 @@
+body{
+    margin: 0 auto;
+    text-align: center;
+}
+.white{
+    background-color: white; 
+}
+.grey{
+    background-color: grey; 
+}
+
+header{
+    border: 1 px;
+    background-color: blue;
+    height: 200px;
+}
+main{
+    height: 1000px;
+    border: 1px;
+    background-color: grey;
+
+    
+}
+footer{
+    background-color: black;
+    height: 300px;
+}
