@@ -7,8 +7,8 @@ body{
     margin: 0 auto;
     text-align: center;
 }
-.white{
-    background-color: white; 
+.yellow{
+    background-color: yellow; 
 }
 .grey{
     background-color: grey; 
@@ -24,44 +24,86 @@ header{
 .navigation{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .logo{
     background-color: blueviolet;
-    width: 40px;
+    width: 60px;
     margin: 30px;
 }
 .txt{
+    display: flex;
     text-align: center;
     background-color: blueviolet;
     width: 500px;
     flex-direction: row;
     padding: auto;
+    justify-content: space-between;
 }
 .description{
     display: flex;
     color: white;
+    justify-content: center;
+    padding: 10px;
 
 }
 /* main */
 main{
    height: 500px;
-    background-color: grey; 
     display: flex;
-
+    flex-direction: column;
+    align-items: center;
+    
 
 }
-aside{
-    min-height: 200px;
+.aside{
+    display: flex;
+   height: 150px;
     width: 45%;
     background-color: brown;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sub-title{
+font-size: 20px;
+    color: aqua;
 }
 .png{
-    min-height: 200px;
+    height: 150px;
     width: 45%;
-    background-color: green;h
+    background-color: green;
 }
+.left{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row-reverse; 
 }
+.right{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row; 
+}
+
 footer{
     background-color: black;
     height: 300px;
+}
+.finish{
+height: 200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+
+}
+.next-png{
+    height: 150px;
+    width: 45%;
+    background-color: green;
+}
+nav{
+    width:100px ;
+    height: 50px;
+   background-color:  #8EA1E1;
+
 }
