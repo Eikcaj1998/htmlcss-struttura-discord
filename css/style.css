@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
     margin: 0 auto;
     text-align: center;
@@ -8,14 +13,17 @@ body{
 .grey{
     background-color: grey; 
 }
-
+/* header */
 header{
-    display: flex;
+
     border: 1 px;
     background-color: blue;
     height: 200px;
+
+}
+.navigation{
+    display: flex;
     justify-content: space-between;
-    align-items: baseline;
 }
 .logo{
     background-color: blueviolet;
@@ -23,27 +31,35 @@ header{
     margin: 30px;
 }
 .txt{
-    display: flex;
+    text-align: center;
     background-color: blueviolet;
     width: 500px;
     flex-direction: row;
     padding: auto;
-    justify-content: space-between;
-    
-
-    
 }
-a{
+.description{
+    display: flex;
+    color: white;
+
+}
+/* main */
+main{
+   height: 500px;
+    background-color: grey; 
     display: flex;
 
 
 }
-main{
-    height: 1000px;
-    border: 1px;
-    background-color: grey;
-
-    
+aside{
+    min-height: 200px;
+    width: 45%;
+    background-color: brown;
+}
+.png{
+    min-height: 200px;
+    width: 45%;
+    background-color: green;h
+}
 }
 footer{
     background-color: black;
