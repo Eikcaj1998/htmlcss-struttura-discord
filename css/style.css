@@ -10,9 +10,33 @@ body{
 }
 
 header{
+    display: flex;
     border: 1 px;
     background-color: blue;
     height: 200px;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.logo{
+    background-color: blueviolet;
+    width: 40px;
+    margin: 30px;
+}
+.txt{
+    display: flex;
+    background-color: blueviolet;
+    width: 500px;
+    flex-direction: row;
+    padding: auto;
+    justify-content: space-between;
+    
+
+    
+}
+a{
+    display: flex;
+
+
 }
 main{
     height: 1000px;
