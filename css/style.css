@@ -15,8 +15,6 @@ body{
 }
 /* header */
 header{
-
-    border: 1 px;
     background-color: blue;
     height: 200px;
 
@@ -37,7 +35,6 @@ header{
     background-color: blueviolet;
     width: 500px;
     flex-direction: row;
-    padding: auto;
     justify-content: space-between;
 }
 .description{
@@ -53,6 +50,7 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 20px;
     
 
 }
@@ -85,12 +83,8 @@ font-size: 20px;
     flex-direction: row; 
 }
 
-footer{
-    background-color: black;
-    height: 300px;
-}
 .finish{
-height: 200px;
+    height: 200px;
     display: flex;
     align-items: center;
     flex-direction: column; 
@@ -104,6 +98,33 @@ height: 200px;
 nav{
     width:100px ;
     height: 50px;
-   background-color:  #8EA1E1;
+    background-color:  #8EA1E1;
+    
+}
+/* footer */
+footer{
+    background-color: black;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
 
+}
+.end {
+
+}
+.language{
+    width: 30%;
+}
+.other{
+    width: 70%;
+}
+.logo-end{
+    background-color: blueviolet;
+}
+hr{
+    color: grey;
+}
+ul{
+    list-style-type: none;
 }
